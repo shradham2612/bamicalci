@@ -22,7 +22,7 @@ const Mainpage = () => {
   function getstatus(BMI) {
     if (BMI < 18.5) return "Underweight";
     else if (BMI >= 18.5 && BMI < 24.9) return "Normal";
-    else if (BMI >= 25 && BMI < 29.9) return "Overweight";
+    else if (BMI >= 25 && BMI < 40) return "Overweight";
     else return "Enter data";
   }
 
